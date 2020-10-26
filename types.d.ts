@@ -9351,6 +9351,7 @@ declare const UNDEFINED_MARKER: unique symbol;
 declare interface UpdateHashContextDependency {
 	chunkGraph: ChunkGraph;
 	runtime: string | SortableSet<string>;
+	runtimeTemplate?: RuntimeTemplate;
 }
 declare interface UpdateHashContextGenerator {
 	/**
